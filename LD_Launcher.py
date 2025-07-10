@@ -369,9 +369,9 @@ class LD_Window(object) :
                 select_lights.append(select_shape)
                 
         if select_geos == [] : 
-            print("STP selectionne un ABC gros con !")
+            print("STP selectionne un ABC !")
         if select_lights == [] : 
-            print("STP selectionne une Light gros con !")
+            print("STP selectionne une Light !")
         else :
             # select first vertex of the mesh 
             for select_geo in select_geos :
